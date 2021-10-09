@@ -1,0 +1,16 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 0px 0px;
+}
+
+.field {
+  padding: 10px;
+  border: 1px solid #09192f;
+  background-color: #c48f65;
+  color: #fff;
+}
+
+.field:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
